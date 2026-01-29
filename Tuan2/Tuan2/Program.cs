@@ -56,20 +56,6 @@ namespace Tuan2
                 else
                     Console.WriteLine("Chuỗi không đối xứng");
             }
-            //bai4
-            Console.WriteLine("Nhập số phần tử mảng: ");
-            int sptm = int.Parse(Console.ReadLine());
-            int[] mang = new int[sptm];
-            int tong = 0;
-            for (int i = 0; i < sptm; i++)
-            {
-                Console.WriteLine("Phần tử thứ " + (i) + ": ");
-                mang[i] = int.Parse(Console.ReadLine());
-                tong = tong + mang[i];
-            }
-            Console.WriteLine("Tổng mảng: " + tong);
-            //bai5
-
         }
     }
 }
